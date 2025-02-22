@@ -13,6 +13,9 @@ const LocaleLayout = ({
     <html lang={'zh-Hans'} className="h-full">
       <body className="h-full">
         <div className="overflow-x-auto">
+          <Head>
+            <title>STM32开发助手</title>
+          </Head>
           <div className="w-screen h-screen min-w-[300px]">
             {children}
           </div>
