@@ -7,11 +7,11 @@ export const APP_INFO: AppInfo = {
   description: '',
   copyright: '智创科技',
   privacy_policy: '',
-  default_language: 'zh',
+  default_language: 'zh-Hans',
 }
 
 export const isShowPrompt = false
-export const promptTemplate = 'I want you to act as a javascript console.'
+export const promptTemplate = ''
 
 export const API_PREFIX = '/api'
 
