@@ -12,11 +12,11 @@ const LocaleLayout = ({
   const locale = getLocaleOnServer()
   return (
     <html lang={'zh-Hans'} className="h-full">
+      <Head>
+            <title>您的网页标题</title>
+      </Head>
       <body className="h-full">
         <div className="overflow-x-auto">
-          <Head>
-            <title>您的网页标题</title>
-          </Head>
           <div className="w-screen h-screen min-w-[300px]">
             {children}
           </div>
